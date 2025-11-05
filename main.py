@@ -3,7 +3,7 @@ from telebot import types
 from telebot.types import Message
 import sqlite3
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("Your bot token")
 
 conn = sqlite3.connect('users.db')
 cursor = conn.cursor()
